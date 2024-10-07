@@ -19,6 +19,8 @@ h1 {
     color: rgb(129, 16, 129);
     padding: 3rem;
     position: relative;
+    font-family: kanit;
+    font-weight: 200;
 }
 
 main {
