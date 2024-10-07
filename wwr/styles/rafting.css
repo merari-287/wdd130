@@ -1,10 +1,16 @@
-:root
+:root {
+    --primary-color: 3C6E71;
+    --secondary-color: D9D9D9;
+    --accent1-color: 353535;
+    --accent2-color:  284B63;
+}
 
-heading {
-
-
+head {
+    font-family: "Oswald", serif;
+    font-weight: 400;
+    font-color: blue;
 }
 
 p {
-
+    font-weight: 100;
 }
