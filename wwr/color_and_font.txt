@@ -12,11 +12,12 @@ heading-font: kanit;
 }
 
 body {
+    font-family: "Kanit", system-ui;
     font-weight: 400;
     text-font: kanit;
 }
 
 h1 {
     font-weight 100;
-    text-font: sans-serif;
+    text-font: kanit;
 }
