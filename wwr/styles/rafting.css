@@ -5,23 +5,28 @@
     --accent2-color:  284B63;
 }
 
-head {
-    position: fixed;
+header {
+    position: relative;
     bottom: 0;
     margin: 1rem;
-    border-top: 1px 284B63;
-    font-color: rgb(102, 73, 73);
+    background-color: 284B63;
+    display: box;
+}
+
+h1 {
     font-family: "Oswald", serif;
     font-weight: 400;
+    font-color: rgb(46, 16, 122);
 }
 
 p {
     font-weight: 100;
+    padding: 15px;
 }
 
 article img {
     float: right;
-    margin:20px;
+    margin: 20px;
 }
 
 div {
@@ -32,4 +37,12 @@ div {
     display: block;
     width: 100%;
     height: auto;
+    float: right;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "Oswald", serif;
+    font-weight: 400;
+    accent-color: rgb(60, 46, 12);
 }
