@@ -29,7 +29,7 @@ article {
 }
 
 div {
-
+    position: relative;
 }
 
 .hero img {
