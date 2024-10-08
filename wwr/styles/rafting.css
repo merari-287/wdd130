@@ -19,8 +19,21 @@ p {
     font-weight: 100;
 }
 
-.icon {
-    width:;
-    height: 
-    background-image:;
-    background-size: 
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    float: right;
+}
+
+div {
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
