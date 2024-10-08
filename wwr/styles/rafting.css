@@ -16,7 +16,7 @@ header {
 h1 {
     font-family: "Oswald", serif;
     font-weight: 400;
-    font-color: rgb(46, 16, 122);
+    accent-color: rgb(46, 16, 122);
 }
 
 p {
@@ -25,6 +25,8 @@ p {
 }
 
 article img {
+    position: sticky;
+    top: 40px; left: 40px;
     float: right;
     margin: 20px;
 }
