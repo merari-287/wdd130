@@ -18,3 +18,10 @@ head {
 p {
     font-weight: 100;
 }
+
+.icon {
+    width: 32px;
+    height: 32px;
+    background-image: url(images/icon2);
+    background-size: cover;
+}
