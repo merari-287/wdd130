@@ -25,10 +25,8 @@ p {
 }
 
 article img {
-    position: sticky;
-    top: 40px; left: 40px;
     float: right;
-    margin: 20px;
+    top: 80px; left: 10px;
 }
 
 div {
@@ -36,7 +34,6 @@ div {
 }
 
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
     float: right;
@@ -47,4 +44,7 @@ h2 {
     font-family: "Oswald", serif;
     font-weight: 400;
     accent-color: rgb(60, 46, 12);
+    padding: 2px 0 0 12px;
+    position: webkit-sticky;
+    top: -1px;
 }
