@@ -5,10 +5,6 @@
     --accent2-color:  #284B63;
 }
 
-nav {
-    background-color:  #353535; 
-}
-
 header {
     position: relative;
     margin: 1rem auto;
@@ -19,7 +15,8 @@ header {
     max-width: 1000px;
 }
 
-header img {
+nav {
+    background-color:  #353535;
     
 }
 
