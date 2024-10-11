@@ -5,11 +5,13 @@
     --accent2-color:  #284B63;
 }
 
-header .grid{
+header {
+    background-color: #284B63;
     margin: 1rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr 2fr;
 	align-items: center;
+    accent-color: #D9D9D9;
 	border-bottom: 2px solid #353535;
 	max-width: 1000px;
 }
