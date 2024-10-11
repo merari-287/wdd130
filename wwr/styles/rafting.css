@@ -1,17 +1,17 @@
 :root {
-    --primary-color: 3C6E71;
-    --secondary-color: D9D9D9;
-    --accent1-color: 353535;
-    --accent2-color:  284B63;
+    --primary-color: #3C6E71;
+    --secondary-color: #D9D9D9;
+    --accent1-color: #353535;
+    --accent2-color:  #284B63;
 }
 
-head {
+header {
     position: relative;
     margin: 1rem auto;
-    background-color: 3C6E71;
+    background-color: #f6ecec;
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
-    border: bottom; 1px solid 353535; 
+    grid-template-columns: 1px;
+    border: bottom; 1px solid #353535; 
     max-width: 1000px;
 }
 
