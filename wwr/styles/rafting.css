@@ -1,19 +1,17 @@
 :root {
     --primary-color: #3C6E71;
-    --secondary-color: #D9D9D9;
-    --accent1-color: #353535;
+    --secondary-color: #353535;
+    --accent1-color: #D9D9D9;
     --accent2-color:  #284B63;
 }
 
-nav {
-    background-color: #353535;
-    padding: 40px;
-}
-
-h1 {
-    font-family: "Oswald", serif;
-    font-weight: 400;
-    accent-color: #D9D9D9;
+header .grid{
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 2px solid #353535;
+	max-width: 1000px;
 }
 
 p {
