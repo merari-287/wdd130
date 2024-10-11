@@ -5,12 +5,14 @@
     --accent2-color:  284B63;
 }
 
-header {
+head {
     position: relative;
-    bottom: 0;
-    margin: 1rem;
-    background-color: 284B63;
-    display: box;
+    margin: 1rem auto;
+    background-color: 3C6E71;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    border: bottom; 1px solid 353535; 
+    max-width: 1000px;
 }
 
 h1 {
