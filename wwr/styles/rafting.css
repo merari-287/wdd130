@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #D9D9D9;
+    background-color: #353535;
     margin: 1rem auto;
 	display: grid;
 	grid-template-columns: 220px 1fr 2fr;
@@ -22,17 +22,18 @@ header {
 nav {
     justify-items: end;
     display: flex;
-    gap: 45px;
+    gap: 40px;
     padding-right: 30px;
-    font-size: 24px;
+    font-size: 27px;
     margin: 0;
     padding: 0;
     white-space: nowrap;
-    color: solid #ffffff;
+    color: white;
 }
 
 nav a {
     text-decoration: none;
+    color: inherit;
 }
 
 p {
@@ -40,6 +41,27 @@ p {
     padding: 15px;
 }
 
+main img {
+    background-image: "images/pic.jpg";
+}
+
+div {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+}
+
+caption {
+    background-color: #284B63;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+
+      
 article img {
     float: right;
     top: 80px; left: 10px;
