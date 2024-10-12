@@ -18,9 +18,9 @@ header {
 }
 
 .nav {
-    justify-content: end;
+    justify-items: end;
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 p {
