@@ -41,8 +41,10 @@ p {
     padding: 15px;
 }
 
-main img {
-    background-image: url("images/pic.jpg");
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 div {
@@ -52,15 +54,6 @@ div {
     flex-flow: column;
     padding: 5px;
     margin: auto;
-}
-    
-article img {
-    float: right;
-    top: 80px; left: 10px;
-}
-
-div {
-    position: relative;
 }
 
 .hero img {
