@@ -23,7 +23,7 @@ nav {
     display: flex;
     gap: 3rem;
     padding-right: 5rem;
-    font-size: 2rem;
+    font-size: large;
     white-space: nowrap;
 }
 
@@ -32,22 +32,22 @@ nav a {
     color: white;
 }
 
-p {
+main {
+    flex: auto;
+    position: relative;
     font-size: 1rem;
-    padding: 10rem;
+    padding: left right;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+img {
+    position: absolute;
+    float: left;
 }
 
 div {
     position: relative;
-    border: 0.30rem solid#3C6E71;
+    border: .30rem solid#3C6E71;
     display: flex;
-    flex-flow: column;
     margin: auto;
 }
 
@@ -78,9 +78,8 @@ article img {
 
 section {
     display: flex;
-    flex-flow: row;
-    padding: 5px;
-    max-width: 220px;
+    flex-wrap: nowrap;
+    max-width: 25%;
     margin: auto;
 }
 
