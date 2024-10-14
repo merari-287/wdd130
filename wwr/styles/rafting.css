@@ -8,10 +8,8 @@
 header {
     background-color: #353535;
     margin: 1rem;
-	display: grid;
-	grid-template-columns: 1fr 2fr;
+	display: absolute;
     align-items: center;
-    height: 150px;
 	border: 3px solid#353535;
 	max-width: 100%;
     padding: 0;
@@ -31,23 +29,16 @@ nav a {
     color: white;
 }
 
-main {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url(images/image.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.hero {
+    color: white;
+    padding: o;
+    margin: 0;
 }
 
-.hero h1 {
-    font-size: 3em;
-    color: white;
-    padding: 1rem;
-    margin: 0;
+.hero img {
+    width: 100%;
+    height:auto;
+    justify-content: block;
 }
 
 div {
@@ -64,13 +55,6 @@ div p {
     margin: .5rem 0;
 }
 
-
-h1 {
-    position: absolute;
-    color: white;
-    padding: 1rem;
-}
-
 div p {
     position: absolute;
     color: white;
@@ -85,7 +69,7 @@ article {
     bottom: 1rem;
 }
 
-article img {
+article img{
     float: left;
 }
 
