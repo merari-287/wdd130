@@ -31,12 +31,39 @@ nav a {
     color: white;
 }
 
-div {
+main {
     position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/image.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+div {
     border: .30rem solid#3C6E71;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
 }
+
+div p {
+    color: white;
+    font-size: 2rem;
+    margin: .5rem 0;
+}
+
 
 h1 {
     position: absolute;
@@ -87,16 +114,11 @@ h2 {
     font-family: "Oswald", serif;
     font-weight: 700;
     accent-color: #353535;
-    padding: 2px 0 0 12px;
     position: sticky;
-    top: 1px;
+    top: 10px;
 }
 
 h2 p {
-    position: flex-end;
+    position: absolute;
 }
 
-.hero {
-    display: flex;
-    justify-content: space-between;
-}
