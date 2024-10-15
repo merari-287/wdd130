@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --primary-color: #3C6E71;
     --secondary-color: #353535;
@@ -83,3 +84,62 @@ h2 p {
     position: absolute;
 }
 
+=======
+https://coolors.co/palette/000000-f9aa44-0000ff-6dff33
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #0000FF;
+    --accent1-color: #F9AA44;
+    --accent2-color: #6DFF33;
+}
+
+body {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    accent-color: #F9AA44;
+    bottom: 0;
+    margin: 1rem;
+    background-color: #000000;
+}
+
+p {
+    font-weight: 400;
+    accent-color: orange;
+}
+
+p {
+    font-weight: 100;
+    padding: 15px;
+}
+
+article img {
+    float: right;
+    top: 80px; left: 10px;
+}
+
+div {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    float: right;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "Oswald", serif;
+    font-weight: 400;
+    accent-color: rgb(60, 46, 12);
+    padding: 2px 0 0 12px;
+    position: webkit-sticky;
+    top: -1px;
+}
+>>>>>>> f1edd6e (on)
