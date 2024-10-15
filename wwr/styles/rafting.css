@@ -19,14 +19,15 @@ nav {
     justify-items: flex-end;
     display: flex;
     gap: 3rem;
-    padding-right: 5rem;
+    text-align: justify;
+    text-transform: capitalize;
     font-size: x-large;
     white-space: nowrap;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: orange;
 }
 
 .hero {
@@ -34,30 +35,17 @@ nav a {
     color: white;
     padding: 0;
     margin: 0;
-    width: 500%;
+    width: 100%;
+    border: 0.3em solid #353535;
+    display: flex;
+    align-items: center;
     height: 100vh;
 }
 
 .hero img {
-    width: ;
+	width: 100%;
     height: auto;
     display: block;
-}
-
-.hero article p {
-   position: absolute;
-   color: white;
-   bottom: 20px;
-   right: 20px;
-   background-color: #284B63;
-   padding: 10px;
-}
-
-.hero h1 {
-    position:absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 3rem;
 }
 
 section {
