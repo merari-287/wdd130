@@ -19,10 +19,21 @@ nav {
     justify-items: flex-end;
     display: flex;
     gap: 3rem;
-    text-align: justify;
-    text-transform: capitalize;
-    font-size: x-large;
+    text-indent: justify;
+    padding-left: 2rem;
+    text-transform: uppercase;
+    font-size: large;
+    color: gray;
     white-space: nowrap;
+}
+
+a:hover {
+    color: black;
+    background-color: orange;
+}
+
+a:active {
+    color: white; 
 }
 
 nav a {
@@ -30,22 +41,8 @@ nav a {
     color: orange;
 }
 
-.hero {
-    position: relative;
-    color: white;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    border: 0.3em solid #353535;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-}
-
 .hero img {
-	width: 100%;
-    height: auto;
-    display: block;
+    position: relative;
 }
 
 section {
@@ -55,11 +52,15 @@ section {
     margin: auto;
 }
 
+section p::first-line {
+    font-size: 300%;
+    color: orange;
+}
+
 figure {
-    border: solid#D9D9D9; 
     display: flex;
-    flex-flow: column;
-    padding: 5px;
+    flex: 0 1 1 auto;
+    border: solid#D9D9D9; 
     max-width: 220px;
     margin: auto;
 }
