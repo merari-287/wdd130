@@ -46,19 +46,13 @@ header {
     text-decoration: none;
 }
 
-nav a:active {
+.nav a:active {
     color: white;
 }
-
-
 
 .hero img {
     width: 100%;
     height: auto;
-}
-
-div .hero {
-    position: relative;
 }
 
 article {
