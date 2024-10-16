@@ -5,6 +5,16 @@
     --accent2-color: #6DFF33;
 }
 
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox-container img {
+    display: flex;
+    margin: 10px;
+}
+
 header {
     margin: 0;
     display: grid;
