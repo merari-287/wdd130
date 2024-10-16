@@ -8,6 +8,7 @@
 .flexbox-container {
     display: flex;
     align-items: center;
+    align-content: flex-end;
  
 }
 
@@ -16,11 +17,6 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
-}
-
-.flexbox-container img {
-    display: flex;
-    justify-content:last baseline
 }
 
 header {
@@ -35,17 +31,6 @@ header {
     background-color: #000000;
 }
 
-.flexbox-container img {
-    display: flex;
-    margin: 10px;
-}
-
-.logo img {
-    margin: 0 0.25rem 0 1rem;
-    width: 64px;
-    height: auto;
-}
-
 .nav {
     font-size: 2rem;
     font-family: "Questrial", sans-serif;
@@ -55,25 +40,17 @@ header {
     text-decoration: none;
 }
 
-.nav a {
-    color: #F9AA44;
-    padding: 20px;
-    text-decoration: none;
-}
-
 .nav a:hover {
     color:#F9AA44;
     font-weight: 700;
     text-decoration: none;
 }
 
-.nav a:active {
+nav a:active {
     color: white;
 }
 
-article img {
-    float: right;
-}
+
 
 .hero img {
     width: 100%;
@@ -84,17 +61,34 @@ div .hero {
     position: relative;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1, article {
-    position: absolute;
-
+article {
+    position: base;
 }
 
 article img {
+    position: relative;
     float: right;
 }
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: row;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  
