@@ -6,14 +6,12 @@
 }
 
 header {
-    margin: 1rem auto;
+    margin: 01emauto;
     display: grid;
     grid-template-columns: 120px 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid #000000;
     max-width: 1000px;
-    position:absolute;
-    accent-color: #F9AA44;
     background-color: #000000;
 }
 
@@ -23,7 +21,7 @@ header {
     height: auto;
 }
 
-h1 {
+h1 li {
     font-size: 5rem;
     font-family: "Questrial", sans-serif;
 }
@@ -32,40 +30,39 @@ nav {
     text-align: right;
 }
 
-nav {
-    text-align: right;
-}
 
-.navigation {
+.nav {
     display: flex;
     list-style: none;
 }
 
-.navigation li {
+.nav li {
     flex: 1 1 100%;
 }
 
-.navigation a {
+.nav a {
     display: block;
-    color:#6DFF33;
+    color: #F9AA44;
     padding: 20px;
     text-decoration: none;
 }
 
-.navigation a:hover {
+.nav a:hover {
     color:#F9AA44;
     font-weight: 700;
     text-decoration: none;
 }
 
-p {
-    font-weight: 400;
-    accent-color: orange;
+.nav a:active {
+    color: white;
 }
 
 p {
-    font-weight: 100;
-    padding: 15px;
+    
+}
+
+p {
+    
 }
 
 article img {
@@ -74,41 +71,9 @@ article img {
     left: 10px;
 }
 
-div {
-    position: relative;
-}
-
 .hero img {
     width: 100%;
     height: auto;
-    float: right;
-    padding: 10px;
-}
-
-nav {
-    justify-items: flex-end;
-    display: flex;
-    gap: 3rem;
-    text-indent: justify;
-    padding-left: 2rem;
-    text-transform: uppercase;
-    font-size: large;
-    color: gray;
-    white-space: nowrap;
-}
-
-a:hover {
-    color: black;
-    background-color: orange;
-}
-
-a:active {
-    color: white;
-}
-
-nav a {
-    text-decoration: none;
-    color: orange;
 }
 
 div .hero {
@@ -128,8 +93,4 @@ h1, article {
 
 article img {
     float: right;
-}
-
-p {
- 
 }
