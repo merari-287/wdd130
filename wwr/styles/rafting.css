@@ -16,7 +16,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    align-content: center;
+    align-content: absolute;
+    font-size: 2rem;
+    font-family: "Questrial", sans-serif;
+    display: flex;
+    padding: 10px;
+    color:orange;
+    text-decoration: none;
 }
 
 header {
@@ -81,7 +87,7 @@ figure {
   figcaption {
     background-color: #222;
     color: #fff;
-    font: italic smaller sans-serif;
+    font-family: ;
     padding: 3px;
     text-align: center;
   }
