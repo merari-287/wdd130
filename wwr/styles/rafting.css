@@ -56,18 +56,19 @@ header {
     color: white;
 }
 
-img {
+.hero img {
     width: 100%;
     height: auto;
 }
 
 article {
-    position: base;
+    position: relative;
+    float: right;
 }
 
 article img {
     position: relative;
-    float: right;
+    float: left;
 }
 
 figure {
