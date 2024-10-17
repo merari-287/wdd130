@@ -56,7 +56,7 @@ header {
     color: white;
 }
 
-.hero img {
+img {
     width: 100%;
     height: auto;
 }
@@ -90,5 +90,9 @@ figure {
     font-family: ;
     padding: 3px;
     text-align: center;
+  }
+
+  footer img {
+    position: end;
   }
   
