@@ -16,20 +16,20 @@ header {
     background: #000000;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, p {
     font-size: 2rem;
     font-family:'Times New Roman', Times, serif;
     text-decoration: none;
   }
   
-  .nav h1, h2, h3, h4, h5 { 
+  .nav h1, h2, h3, h4, h5, p { 
     display: flex;
     align-items: center;
     padding: 0;
     margin: 0;
   }
   
-  nav a h1, h2, h3, h4, h5 {
+  nav a h1, h2, h3, h4, h5, p {
     color:#F9AA44;
     padding: 0;
     text-decoration: none;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5 {
     align-items: center;
   }
 
-  .navigation h1, h2, h3, h4, h5 {
+  .navigation h1, h2, h3, h4, h5, p {
     display: flex;
     padding: 3px;
     padding-left: 80px;
@@ -49,4 +49,112 @@ h1, h2, h3, h4, h5 {
     gap: 2rem;
     font-size: 2rem;
   }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    color:black;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.column, div {
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+}
+
+
   
