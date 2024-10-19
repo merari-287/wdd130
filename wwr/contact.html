@@ -70,19 +70,17 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend>Pick one of the following options</legend>
-                    <div class="form-item column1">
-                    <label for=""></label>
+                    <label for="radio">Pick one of the following options</label>
                     <select id="browser" name="browser">
                         <option value="generalinquiry">General Inquiry</option>
                         <option value="makereservation">Make Reservation</option>
                         <option value="websitesugestion">Website Sugestion</option>
                     </div> 
                     </select>
-                    <div>
-                    <label for="newslettersubscription">Please subscribe me ot the monthly newsletter</label>
-                    <input type="checkbox" id="yes" name="yes">
-                </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="newssubscription" name="subscribe">
+                        <label for="newslettersubscription">Please subscribe me ot the monthly newsletter</label>
+                    </div>
                 </fieldset>
                 <button type="submit">Submit</button>
             </form>
