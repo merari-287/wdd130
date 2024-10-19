@@ -39,4 +39,14 @@ h1 {
     display: flex;
     align-items: center;
   }
+
+  .navigation {
+    display: flex;
+    padding: 3px;
+    padding-left: 80px;
+    padding-top: 16px;
+    justify-content: space-between;
+    gap: 2rem;
+    font-size: 2rem;
+  }
   
