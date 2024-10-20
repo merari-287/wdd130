@@ -5,18 +5,6 @@
     --accent2-color: #6DFF33;
 }
 
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-size: 3rem;
-    color: black;
-    background-color: #fff;
-}
-
 header {
     margin: 0 auto;
     display: grid;
@@ -26,11 +14,33 @@ header {
     background: #000000;
 }
 
-.nav a {
-    font-size: 3rem;
+.nav { 
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+nav a {
+    color:#F9AA44;
+    padding: 0;
     text-decoration: none;
     white-space: nowrap;
-}
+    margin: 0 5 px;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .navigation {
+    display: flex;
+    padding: 3px;
+    padding-left: 80px;
+    padding-top: 16px;
+    justify-content: space-between;
+    gap: 2rem;
+    font-size: 2rem;
+  }
 
 h1, h2, h3, h4, p {
     font-size: 2rem;
@@ -54,12 +64,11 @@ h1, h2, h3, h4, p {
 
 form {
     width: 100%;
-    max-width: 500px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid black;
     border-radius: 0.5rem;
-    background-color:aqua;
+    background-color: gray;
     display: grid;
 }
 
@@ -78,8 +87,16 @@ fieldset {
 
 legend {
     padding: 1rem;
-    color: navy;
+    color: Black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+legend h1, h2, h3, h4 {
+    padding: 1rem;
+    color: red;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 label, input, button, select, textarea {
@@ -108,6 +125,7 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
 }
+
 button {
     margin: 1rem;
     background-color: navy;
@@ -162,10 +180,14 @@ figcaption {
     bottom:20px;
     box-sizing: border-box;
     opacity: 0.9;
-    flex-wrap: wrap;
 }
 
 .nav a { 
     font-size: 1.5rem;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
 }
 
