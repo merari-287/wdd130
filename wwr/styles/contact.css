@@ -5,6 +5,18 @@
     --accent2-color: #6DFF33;
 }
 
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 3rem;
+    color: black;
+    background-color: #fff;
+}
+
 header {
     margin: 0 auto;
     display: grid;
