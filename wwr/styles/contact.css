@@ -116,7 +116,6 @@ fieldset {
     flex-wrap: wrap;
     flex-flow: row;
     justify-content: space-between;
-    gap: 1px;
 }
  
 figure {
@@ -140,6 +139,7 @@ figcaption {
     bottom:20px;
     box-sizing: border-box;
     opacity: 0.9;
+    flex-wrap: wrap;
 }
 
 legend {
