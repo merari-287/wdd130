@@ -57,8 +57,7 @@ nav a {
        font-style: italic;
   }
   
-  thead,
-  tfoot {
+  thead, tfoot {
     background-color: rgb(228 240 245);
   }
   
@@ -67,8 +66,7 @@ nav a {
       color: #fff;
   }
   
-  th,
-  td {
+  th, td {
     border: 1px solid rgb(160 160 160);
     padding: 8px 10px;
   }
@@ -88,7 +86,6 @@ nav a {
     font-weight: bold;
   }
   
-
 h1, h2, h3, h4, p {
     font-size: 2rem;
     font-family:'Times New Roman', Times, serif;
