@@ -1,19 +1,19 @@
 :root {
-    --primary-color: #000000;
-    --secondary-color: #0000FF;
-    --accent1-color: #F9AA44;
-    --accent2-color: #6DFF33;
+  --primary-color: #000000;
+  --secondary-color: #0000FF;
+  --accent1-color: #F9AA44;
+  --accent2-color: #6DFF33;
 }
 
 header {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 120px 1fr 2fr;
-    border-bottom: 4px solid #000000;
-    border-left: 4px solid #000000;
-    border-top: 4px solid #000000;    
-    max-width: 100%;
-    background: #000000;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 120px 1fr 2fr;
+  border-bottom: 4px solid #000000;
+  border-left: 4px solid #000000;
+  border-top: 4px solid #000000;    
+  max-width: 100%;
+  background: #000000;
 }
 
 h1 {
@@ -40,11 +40,29 @@ nav a {
   align-items: center;
 }
 
+.hero {
+  position: relative;
+}
+
 .hero img {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.image-container h1 {
+  margin: 0;
+  color: white;
+  text-align: center;
 }
 
 .navigation {
@@ -58,18 +76,18 @@ nav a {
 }
 
 section figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: row;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: row;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
   }
   
-  figcaption {
-    background-color: #222;
-    color: #fff;
-    font-family: ;
-    padding: 3px;
-    text-align: center;
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 3px;
+  text-align: center;
   }
