@@ -57,14 +57,7 @@ h1, h2, h3, h4, h5, p {
     box-sizing: border-box;
 }
 
-.map img {
-    width: 30%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -135,7 +128,7 @@ input, select, textarea {
 }
 
 input[type="checkbox"] {
-    width: 22px;
+    width: 30px;
     height: 22px;
     vertical-align: left;
     margin-right: 10px;
