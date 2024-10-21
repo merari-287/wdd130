@@ -35,8 +35,8 @@ nav a {
   padding: 0;
   text-decoration: none;
   white-space: nowrap;
-  margin: 0 5 px;
-  padding-left: 5rem auto;
+  margin: 0 5px;
+  padding-left: 5rem;
   bottom: 10px;
   height: auto;
   display: flex;
@@ -54,15 +54,17 @@ nav a {
 
 .hero h1 {
   position: absolute;
-  bottom: 20px;
+  bottom: 180px;
   left: 50%;
-  transform: translatex(-50%);
+  transform: translateX(-50%);
   color: white;
   text-align: center;
+  font-size: 4em;
   background-color: rgba(0);
   padding: 10px;
   border-radius: 5px;
   margin: 0;
+  line-height: 1;
 }
 
 .image-container {
