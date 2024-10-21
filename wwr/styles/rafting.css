@@ -30,31 +30,20 @@ h1 {
   padding: 10px;
 }
 
-nav a {
-  color:#F9AA44;
-  padding: 0;
-  text-decoration: none;
-  white-space: nowrap;
-  margin: 0 5px;
-  padding-left: 15rem;
-  bottom: 10px;
-  height: auto;
-  display: flex;
-  align-items: center;
-}
-
 .nav-button {
   display: inline-block;
   padding: 10px 20px;
   margin: 0 5px;
+  margin-left: 55px;
   color: black;
   background-color: orange;
-  border: 1rem;
+  border: none;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
   font-size: 2.1rem;
   cursor:grab;
+  white-space: nowrap;
 }
 
 .nav-button:hover {
@@ -107,11 +96,11 @@ article .image-container {
   width: 95%;
   height: 120px auto;
   border: 2px;
-  bottom: 260px;
+  bottom: 150px;
   left: 50%;
   transform: translatex(-50%);
   background-color: orange;
-  opacity: 0.8;
+  opacity: o.5px;
   padding: 10px;
 }
 
@@ -120,7 +109,7 @@ article .image-container {
   margin: 0;
   color: black;
   text-align: left;
-  font-weight: 470;
+  font-weight: 550;
   font-size: 1.5rem;
   flex: 1;
 }
