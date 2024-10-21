@@ -100,7 +100,7 @@ article .image-container {
   left: 50%;
   transform: translatex(-50%);
   background-color: orange;
-  opacity: o.5px;
+  opacity: o.5;
   padding: 10px;
 }
 
