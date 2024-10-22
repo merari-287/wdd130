@@ -136,13 +136,13 @@ header img {
   margin-bottom: 5px;
   margin-left: 640px;
   color: black;
-  font-size: 3rem
+  font-size: 4rem
 }
 
 .text-left, .text-right {
   flex: 1;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   margin: 10px 10px;
 }
 
@@ -165,7 +165,7 @@ header img {
 .image-figure-container {
   display: flex;
   flex-direction: column;
- align-items: center;
+  align-items: center;
   width: 100%;
   height: auto;
   background-color:#F9AA44;
@@ -186,22 +186,22 @@ header img {
   width: 100%;
 }
   
-figure {
+.figure {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 300px;
-  border: 1px solid black;
+  border: thin solid black;
   padding: 5px;
   margin: 0;
   }
 
-figure img {
+.figure img {
   width: 100%;
   height: auto;
 }
 
-figure figcaption {
+.figure figcaption {
   width: 100%;
   background-color: white;
   color: black;
