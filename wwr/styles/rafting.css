@@ -5,17 +5,17 @@
   --accent2-color: #6DFF33;
 }
 
+
+
 header {
   width: 97%;
   display: flex;
   padding: 1vw;
   justify-content: space-between;
   align-items: center;
-  border-bottom: .5vw solid #000000;
-  border-left: .5vw solid #000000;
-  border-top: .5vw solid #000000;    
+  border: .5vw solid #000000;
   max-width: 100%;
-  background: #000000;
+  background: black;
 }
  
 header img { 
@@ -25,11 +25,11 @@ header img {
 
 .navigation {
   display: flex;
-  place-items: center;
+  align-items: center;
+  justify-content: space-between;
   padding: 1px;
   padding-left: 80px;
   padding-top: 16px;
-  justify-content: space-between;
   gap: 2rem;
   font-size: 2rem;
 }
@@ -38,9 +38,9 @@ header img {
   display: grid;
   place-items: center; 
   padding: 1vw 2vw;
-  margin: 0;
-  margin-left: -1vw;
-  color: black;
+  margin: 0 10px;
+  margin-left: 1vw;
+  color:black;
   background-color: orange;
   border: none;
   border-radius: 1vw;
@@ -82,31 +82,29 @@ header img {
   text-decoration: none;
   white-space: nowrap;
   margin: 1vw;
-  line-height: 1;
-  border-radius: 5vw;
 }
 
 .image-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 100%;
   margin-top: -20vw;
-  width: 97%;
   padding: 1px;
   background-color: orange;
   opacity: 0.8;
+  border: 1px solid black;
 }
 
 .image-container p {
   display: flex;
   place-items: center;
   order: 1;
-  margin: 0;
-  margin-bottom: 3vw;
+  margin-bottom: 1px;
   color: black;
   text-align: left;
   font-weight: 550;
-  font-size: 1rem;
+  font-size: 2rem;
   flex: 1;
 }
 
@@ -123,30 +121,60 @@ header img {
   justify-content: space-between;
   width: 100%;
   height: auto;
-  background-color:#0000FF;
-  margin-top:-5vw;
-  margin-left: -10vw;
+  background-color:#c0c0c0;
+  margin-left: 0;
   border: 2px solid black;
   flex-wrap: wrap;
+  padding: 5px 5px;
+  margin-bottom: 1rem;
+  margin-top: 25rem;
 }
 
 .text-image-container h2 {
   width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 640px;
   color: black;
-}
-
-.text-left, .text-right, .text-image-container {
-  flex: 1;
-  height: 100%;
-  margin: 0;
+  font-size: 3rem
 }
 
 .text-left, .text-right {
+  flex: 1;
   color: black;
-  font-size: 1rem;
-  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px 10px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-image-container img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 20px;
+  border: 1px solid black;
+ 
+}
+
+.image-figure-container {
+  display: flex;
+  align-items:stretch;
+  justify-content:flex-end;
+  width: 97%;
+  height: auto;
+  background-color: #6DFF33;
+  margin-left: 0;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem; 
 }
 
 section figure {
