@@ -58,8 +58,28 @@ header img {
 .nav-button:hover {
     background-color: white
 }
-  
-.image-container {
+
+.nav-button .legend {
+    display: grid;
+    place-items: center; 
+    padding: 1vw 2vw;
+    margin: 0 10px;
+    color:black;
+    background-color: red;;
+    border: 1px solid black;
+    border-radius: 1vw;
+    text-align: left;
+    text-decoration: none;
+    font-size: 3vw;
+    cursor:grab;
+    white-space: nowrap;
+}
+
+.nav-button:hover {
+    background-color: white;
+}
+
+.flexbox-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -73,13 +93,13 @@ header img {
     padding: 5vw;
 }
   
-.image-container legend {
+.flexbox-container legend {
     font-size: 5vw;
     font-weight: 800;
     padding: 2px;
 }
   
-.image-container li {
+.flexbox-container {
     display: flex;
     place-items: center;
     order: 1;
@@ -91,42 +111,44 @@ header img {
     flex: 1;
 }
   
-.image-container img {
+.flexbox-container img {
     order: 2;
     max-width: 30%;
     height: auto;
     margin-left: 20px;
 }
-  
-.image-row {
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color:#0000FF;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.box-container .image-row {
     display: flex;
     gap: 2rem;
     justify-content: center;
     width: 100%;
 }
     
-.image-row figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 300px;
-    padding: 0;
-    margin: 0;
-}
-  
-.image-row img {
-    width: 100%;
+.box-container .image-row img {
+    width: 300px;
     height: auto;
     border: thin solid black;
 }
   
-.image-row figcaption {
-    width: 98.5%;
-    background-color:#c0c0c0;
+.box-container .image-row figcaption {
+    width: 100%;
+    background-color: gray;
     opacity: 0.9;
     color: black;
     font-size: 2rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 2px;
     text-align: center;
     margin-top: 0;
@@ -135,33 +157,22 @@ header img {
     top: auto;
 }
 
-.form  body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.2em;
-    color:black;
-    background: #fff;
-}
-
-header {
-    margin: 0 auto;
-    width: 650px;
-}
-
-h1 {
-    margin: 1rem;
-    font-size: 1.5em;
-    color: navy;
-    text-align: center;
-}
-
 form {
-    width: 650px;
+    width: 100%;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    background-color: #eee;
+    background-color: gray;
     display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
 }
 
 .form-item {
