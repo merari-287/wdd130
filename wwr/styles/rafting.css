@@ -4,7 +4,11 @@
   --accent1-color: #F9AA44;
   --accent2-color: #6DFF33;
 }
-
+<style>
+body {
+    background-color:rgb(249, 212, 167);
+}
+</style>
 * {
   margin: 0;
   padding: 0; 
@@ -57,6 +61,36 @@ header img {
 
 .nav-button:hover {
   background-color: white
+}
+
+.hero {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-top: 1rem;
+  margin-bottom: 0;
+  
+}
+
+.hero h1 {
+  position: absolute;
+  bottom: 30vw;
+  left: 50%;
+  transform: trans;ateX(-50%);
+  color: black;
+  -webkit-text-stroke: .135vw rgb(82, 209, 122);
+  text-align: center;
+  font-size: 10vw;
+  font-family:'Times New Roman', Times, serif;
+  text-decoration: none;
+  white-space: nowrap;
+  margin: 1vw;
 }
 
 .image-container {
