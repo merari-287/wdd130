@@ -59,42 +59,12 @@ header img {
   background-color: white
 }
 
-.hero {
-  position: relative;
-  margin-bottom: 0;
-}
-
-.hero img {
-  display: grid;
-  width: 100%;
-  height: auto;
-  padding-top: 1rem;
-  margin-bottom: 0;
-}
-
-.hero h1 {
-  position: absolute;
-  display: grid;
-  place-items: center;
-  bottom: 30vw;
-  left: 50%;
-  transform: translateX(-50%);
-  color: black;
-  -webkit-text-stroke: .135vw rgb(82, 209, 122);
-  text-align: center;
-  font-size: 10vw;
-  font-family:'Times New Roman', Times, serif;
-  text-decoration: none;
-  white-space: nowrap;
-  margin: 1vw;
-}
-
 .image-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  margin-top: -20vw;
+  margin-top: 3vw;
   margin-bottom: 0;
   padding: 7px;
   background-color: orange;
@@ -102,7 +72,13 @@ header img {
   border: 1px solid black;
 }
 
-.image-container p {
+.image-container legend {
+  font-size: 5vw;
+  font-weight: 800;
+  padding: 2px;
+}
+
+.image-container li {
   display: flex;
   place-items: center;
   order: 1;
