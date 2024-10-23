@@ -4,11 +4,13 @@
   --accent1-color: #F9AA44;
   --accent2-color: #6DFF33;
 }
+
 <style>
 body {
     background-color:rgb(249, 212, 167);
 }
 </style>
+
 * {
   margin: 0;
   padding: 0; 
@@ -91,6 +93,26 @@ header img {
   text-decoration: none;
   white-space: nowrap;
   margin: 1vw;
+}
+
+.nav-button .legend {
+  display: grid;
+  place-items: center; 
+  padding: 1vw 2vw;
+  margin: 0 10px;
+  color:black;
+  background-color: red;;
+  border: 1px solid black;
+  border-radius: 1vw;
+  text-align: left;
+  text-decoration: none;
+  font-size: 3vw;
+  cursor:grab;
+  white-space: nowrap;
+}
+
+.nav-button:hover {
+  background-color: white;
 }
 
 .image-container {
@@ -233,6 +255,179 @@ header img {
   position: static;
   top: auto;
 }
+
+.flexbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 3vw;
+  margin-bottom: 0;
+  padding: 7px;
+  color:#0000FF;
+  opacity: 0.8;
+  border: 1px solid black;
+  padding: 5vw;
+}
+
+.flexbox-container legend {
+  font-size: 5vw;
+  font-weight: 800;
+  padding: 2px;
+}
+
+.flexbox-container {
+  display: flex;
+  place-items: center;
+  order: 1;
+  margin-bottom: 1px;
+  color: black;
+  text-align: left;
+  font-weight: 550;
+  font-size: 2rem;
+  flex: 1;
+}
+
+.flexbox-container img {
+  order: 2;
+  max-width: 30%;
+  height: auto;
+  margin-left: 20px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color:#0000FF;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.box-container .image-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  width: 100%;
+}
+  
+.box-container .image-row img {
+  width: 300px;
+  height: auto;
+  border: thin solid black;
+}
+
+.box-container .image-row figcaption {
+  width: 100%;
+  background-color: gray;
+  opacity: 0.9;
+  color: black;
+  font-size: 2rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 2px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: static;
+  top: auto;
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: gray;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+label {
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+footer {
+  margin: 1rem auto 0;
+  width: 650px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+  border-top: 1px solid #ccc;
+}
+
+.column1 {
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+  margin: 0.5rem 0;
+}
+
 
 .footer {
   font-size: 1rem;
