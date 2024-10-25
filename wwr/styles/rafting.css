@@ -144,6 +144,7 @@ header img {
 .flexbox-container li {
   position: relative;
   display:list-item;
+  float: right;
   order: 2;
   font-size: 3vw;
   color: red;
