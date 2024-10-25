@@ -427,9 +427,8 @@ footer {
   margin: 0.5rem 0;
 }
 
-
 .footer {
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
 .sociallinks {
@@ -444,7 +443,7 @@ footer {
 .sociallinks img {
   width: 4vw;
   height: auto;
-  padding: 5px;
+  padding: 4px;
 }
 
 .sociallinks a {
