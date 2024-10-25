@@ -20,16 +20,15 @@ body {
 header {
   width: 100%;
   display: flex;
-  padding: 1vw;
   justify-content: space-between;
   align-items: center;
+  padding: 1vw;
   border: .5vw solid #000000;
-  max-width: 100%;
   background: black;
 }
  
 header img { 
-  max-width: 100%;
+  max-width: 100%vw;
   height: auto;
 }
 
@@ -48,8 +47,9 @@ header img {
   display: grid;
   place-items: center; 
   padding: 1vw 2vw;
-  margin: 0 10px;
-  margin-left: 1vw;
+  margin: 1vw;
+  margin-left: 0;
+  margin-right: 5vw;
   color:black;
   background-color: orange;
   border: none;
@@ -67,7 +67,6 @@ header img {
 
 .hero {
   position: relative;
-  margin-bottom: 0;
   margin-top: 0;
 }
 
@@ -76,7 +75,7 @@ header img {
   width: 100%;
   height: auto;
   padding-top: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 0 auto;
   
 }
 
@@ -84,7 +83,7 @@ header img {
   position: absolute;
   bottom: 30vw;
   left: 50%;
-  transform: trans;ateX(-50%);
+  transform: translateX(-50%);
   color: black;
   -webkit-text-stroke: .135vw rgb(82, 209, 122);
   text-align: center;
@@ -93,6 +92,31 @@ header img {
   text-decoration: none;
   white-space: nowrap;
   margin: 1vw;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 99.2%;
+  margin-top: -20vw;
+  margin-bottom: 0;
+  padding: 7px;
+  background-color: orange;
+  opacity: 0.8;
+  border: 1px solid black;
+}
+
+.image-container p {
+  display: flex;
+  place-items: center;
+  order: 1;
+  margin-bottom: 1px;
+  color: black;
+  text-align: left;
+  font-weight: 550;
+  font-size: 2vw;
+  flex: 1;
 }
 
 .nav-button .legend {
@@ -115,35 +139,10 @@ header img {
   background-color: white;
 }
 
-.image-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  margin-top: 3vw;
-  margin-bottom: 0;
-  padding: 7px;
-  background-color: orange;
-  opacity: 0.8;
-  border: 1px solid black;
-}
-
 .image-container legend {
   font-size: 5vw;
   font-weight: 800;
   padding: 2px;
-}
-
-.image-container li {
-  display: flex;
-  place-items: center;
-  order: 1;
-  margin-bottom: 1px;
-  color: black;
-  text-align: left;
-  font-weight: 550;
-  font-size: 2rem;
-  flex: 1;
 }
 
 .image-container img {
