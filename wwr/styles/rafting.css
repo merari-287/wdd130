@@ -143,14 +143,11 @@ header img {
 }
 
 .flexbox-container li {
-  order: 2;
+  display: list-item;
   font-size: 3vw;
   color: red;
 }
 
-.div legend {
- font-size: 3vw;
-}
 
 .image-container legend {
   font-size: 5vw;
