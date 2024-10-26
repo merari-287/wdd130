@@ -118,35 +118,6 @@ header img {
   flex: 1;
 }
 
-.flexbox-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  margin-top: 3vw;
-  margin-bottom: 0;
-  padding: 7px;
-  color:#0000FF;
-  opacity: 0.8;
-  border: 1px solid black;
-  padding: 5vw;
-}
-
-.flexbox-container-title {
-  position: baseline;
-  order: 1;
-  font-size: 5vw;
-  font-weight: 800;
-  padding: 2px;
-  color: white;
-}
-
-.flexbox-container li {
-  display: list-item;
-  font-size: 3vw;
-  color: red;
-}
-
 
 .image-container legend {
   font-size: 5vw;
@@ -206,6 +177,36 @@ header img {
   margin: 0 20px;
   border: 1px solid black;
  
+}
+
+
+.flexbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 3vw;
+  margin-bottom: 0;
+  padding: 7px;
+  color:#0000FF;
+  opacity: 0.8;
+  border: 1px solid black;
+  padding: 5vw;
+}
+
+.flexbox-container-title {
+  position: baseline;
+  order: 1;
+  font-size: 5vw;
+  font-weight: 800;
+  padding: 2px;
+  color: white;
+}
+
+.flexbox-container li {
+  display: column;
+  font-size: 3vw;
+  color: red;
 }
 
 .section h5 {
