@@ -180,7 +180,7 @@ header img {
   margin-top: 27rem;
 }
 
-.text-image-container h2 {
+.text-image-container {
   width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -212,6 +212,10 @@ header img {
  
 }
 
+.section h5 {
+  font-size: 2vw;
+}
+
 .image-figure-container {
   display: flex;
   flex-direction: column;
@@ -233,39 +237,35 @@ header img {
 
 .image-row-container {
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+ 
+.row-image-container {
+  display: flex;
+  gap: 1rem;
   justify-content: center;
   width: 100%;
 }
-  
-.image-row-container .figure {
+
+figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 300px;
-  padding: 0;
-  margin: 0;
-  }
-
-.image-row-container .img {
-  width: 100%;
-  height: auto;
-  border: thin solid black;
+  max-width: 150px;
 }
 
-.image-row-container .figcaption {
-  width: 98.5%;
-  background-color:#c0c0c0;
-  opacity: 0.9;
-  color: black;
-  font-size: 2rem;
-  font-family:Arial, Helvetica, sans-serif;
-  padding: 2px;
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 1rem;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  position: static;
-  top: auto;
 }
 
 .box-container {
@@ -310,7 +310,7 @@ header img {
 form {
   width: 100%;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.5rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   background-color:#c0c0c0;
@@ -341,7 +341,7 @@ fieldset {
 legend {
   padding: 0.5rem;
   color: navy;
-  font-size: 1.3em;
+  font-size: 2em;
   font-weight: 800;
 }
 
